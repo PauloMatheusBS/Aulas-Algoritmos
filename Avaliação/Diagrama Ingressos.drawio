@@ -1,0 +1,165 @@
+<mxfile host="app.diagrams.net" modified="2024-05-17T13:22:13.204Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ahZvuBWdh5y-J2Hf5_wK" version="24.4.4" type="device">
+  <diagram name="Página-1" id="DnN875kNsD8v5tduejC7">
+    <mxGraphModel dx="2577" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N3jkP33c1fkFZGaZOErX-1" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-2" target="N3jkP33c1fkFZGaZOErX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-2" value="nome = input(&quot;Digite o seu nome: &quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-3" target="N3jkP33c1fkFZGaZOErX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-3" value="&lt;div&gt;total_da_compra = 0.0&lt;/div&gt;&lt;div&gt;tipos_de_ingressos = []&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="230" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-4" value="while True:" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-5" value="valor_ingresso = float(input(&quot;Digite o valor do ingresso: &quot;))" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="30" y="490" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-6" target="N3jkP33c1fkFZGaZOErX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-6" value="tipo_ingresso = input(&quot;Digite o tipo do ingresso (meia ou inteira): &quot;).strip().lower()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-2.5" y="620" width="225" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-7" target="N3jkP33c1fkFZGaZOErX-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="109.66666666666697" y="1030.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-7" value="if tipo_ingresso == &quot;meia&quot;:" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="820" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-8" target="N3jkP33c1fkFZGaZOErX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-8" value="carteirinha = input(&quot;Digite a carteirinha: &quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="845" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-7" target="N3jkP33c1fkFZGaZOErX-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-10" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="195" y="850" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-11" target="N3jkP33c1fkFZGaZOErX-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-11" value="tipos_de_ingressos.append(&quot;meia&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="847.5" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-12" value="total_da_compra += valor_ingresso / 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-1" target="N3jkP33c1fkFZGaZOErX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-4" target="N3jkP33c1fkFZGaZOErX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-5" target="N3jkP33c1fkFZGaZOErX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-21" value="outro_ingresso = input(&quot;Você quer comprar outro ingresso? (sim ou não): &quot;).strip().lower()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="820" y="805" width="230" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-22" target="N3jkP33c1fkFZGaZOErX-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1359.9999999999995" y="884.7142857142858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-22" target="N3jkP33c1fkFZGaZOErX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-35" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N3jkP33c1fkFZGaZOErX-32">
+          <mxGeometry x="-0.885" y="-8" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-22" value="if outro_ingresso == &quot;não&quot;:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="810" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-24" value="break" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="855" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-25" value="print(f&quot;\nNome: {nome}&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="855" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-26" value="print(f&quot;Total da compra: R$ {total_da_compra:.2f}&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="832.5" width="180" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-27" value="print(&quot;Tipos de ingressos comprados:&quot;, &#39;, &#39;.join(tipos_de_ingressos))" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="825" width="240" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-24" target="N3jkP33c1fkFZGaZOErX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-25" target="N3jkP33c1fkFZGaZOErX-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-26" target="N3jkP33c1fkFZGaZOErX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-21" target="N3jkP33c1fkFZGaZOErX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-12" target="N3jkP33c1fkFZGaZOErX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-34" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="885" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-36" target="N3jkP33c1fkFZGaZOErX-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-36" target="N3jkP33c1fkFZGaZOErX-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-36" value="&amp;nbsp;elif tipo_ingresso == &quot;inteira&quot;:" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="620" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-6" target="N3jkP33c1fkFZGaZOErX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-38" target="N3jkP33c1fkFZGaZOErX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-38" value="tipos_de_ingressos.append(&quot;inteira&quot;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="647.5" width="200" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-40" value="total_da_compra += valor_ingresso" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="655" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-40" target="N3jkP33c1fkFZGaZOErX-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-44" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="660" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-47" value="print(&quot;Tipo de ingresso inválido. Por favor, digite &#39;meia&#39; ou &#39;inteira&#39;.&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="1040" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-48" value="print(&quot;Tipo de ingresso inválido. Por favor, digite &#39;meia&#39; ou &#39;inteira&#39;.&quot;)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="295" y="440" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.92;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-48" target="N3jkP33c1fkFZGaZOErX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N3jkP33c1fkFZGaZOErX-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N3jkP33c1fkFZGaZOErX-47" target="N3jkP33c1fkFZGaZOErX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
