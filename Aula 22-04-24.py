@@ -49,41 +49,66 @@
 # discoroxo3 = 40.00
 # discomarrom4 = 50.00
 
-# compraazul = 0
-# compralaranja = 0
-# compraroxo = 0
-# compramarrom = 0
-
-
-# opção_de_escolha = input ("O que você deseja fazer? Digite 1 para Consultar preços, Digite 2 para Comprar, Digite 3 para Sair")
-# while opção_de_escolha == "1" :
+# opção_de_escolha = input ("O que você deseja fazer? Digite 1 para Consultar preço individual, Digite 2 para Consultar preço geral, Digite 3 para Comprar, Digite 4 para Sair")
+# if opção_de_escolha == "1":
+#     consulta_preço = input ("Qual a cor que você quer consultar?")
+#     if consulta_preço =="Azul" :
+#         print("O preço do Disco Azul é: R$", discoazul1)
+#     elif consulta_preço == "Laranja":
+#         print("O preço do Disco Laranja é: R$", discolaranja2)
+#     elif consulta_preço == "Roxo":
+#         print("O preço do Disco Roxo é: R$", discoroxo3)
+#     elif consulta_preço == "Marrom":
+#         print("O preço do Disco Marrom é: R$", discomarrom4)
+#     else
+#         print ("As opções validas são ")
+# elif opção_de_escolha == "2":
 #     print ("Disco Azul R$20,00\nDisco Laranja R$30,00\nDisco Roxo R$40,00\nMarrom R$50,00")
-#     opção_de_escolha = input ("O que você deseja fazer? Digite 1 para Consultar preços, Digite 2 para Comprar, Digite 3 para Sair")
-# if opção_de_escolha == "2":
-#     opção_de_compra = input ("1 - Disco Azul R$20,00\n2 - Disco Laranja R$30,00\n3 - Disco Roxo R$40,00\n4 - Disco Marrom R$50,00\nOU Digite 9 para fechar carrinho!\nQual você deseja comprar?\n")
-#     while opção_de_compra == "1" or opção_de_compra =="2" or opção_de_compra == "3" or opção_de_compra == "4":
-#         if opção_de_compra == "1":
-#             compraazul = compraazul+1
-#             opção_de_compra = input ("1 - Disco Azul R$20,00\n2 - Disco Laranja R$30,00\n3 - Disco Roxo R$40,00\n4 - Disco Marrom R$50,00\n9 - para fechar carrinho! \nQual você deseja comprar? ")
-#         if opção_de_escolha == "2":
-#             compralaranja = compralaranja+1
-#             opção_de_compra = input ("1 - Disco Azul R$20,00\n2 - Disco Laranja R$30,00\n3 - Disco Roxo R$40,00\n4 - Disco Marrom R$50,00\n9 - para fechar carrinho! \nQual você deseja comprar? ")
-#         if opção_de_escolha == "3":
-#             compraroxo = compraroxo+1
-#             opção_de_compra = input ("1 - Disco Azul R$20,00\n2 - Disco Laranja R$30,00\n3 - Disco Roxo R$40,00\n4 - Disco Marrom R$50,00\n9 - para fechar carrinho! \nQual você deseja comprar? ")
-#         if opção_de_escolha == "4":
-#             compramarrom = compramarrom+1
-#             opção_de_compra = input ("1 - Disco Azul R$20,00\n2 - Disco Laranja R$30,00\n3 - Disco Roxo R$40,00\n4 - Disco Marrom R$50,00\n9 - para fechar carrinho! \nQual você deseja comprar? ")
-#     if opção_de_compra == "9":
-#         totalcompra = float((compraazul*discoazul1) + (compralaranja*discolaranja2) + (compramarrom*discomarrom4) + (compraroxo*discoroxo3) )
-#         print ("O TOTAL DA COMPRA É: R$", totalcompra)
-#     else :
-#         print ("As opções validas são> 1 - Disco Azul R$20,00\n2 - Disco Laranja R$30,00\n3 - Disco Roxo R$40,00\n4 - Disco Marrom R$50,00\n9 - para fechar carrinho! \nQual você deseja comprar? ")
 # elif opção_de_escolha == "3":
-#     print ("SAINDOOO....")
+#     #while opção_de_escolha >3 :
+#     print("O preço do Disco Azul é: R$", discoazul1)
+# elif opção_de_escolha == "4":
+#     print ("Fechando .... ")
 # else :
-#     print ("Digite uma das opções validas, Digite 1 para Consultar preços, Digite 2 para Comprar, Digite 3 para Sair")
+#     print ("As opções validas são 1 para consulta, 2 para compra e 3 para sair! ")
 
+
+#     
+
+# while opção_de_escolha >3 :
+
+#     if opção_de_escolha == "CD Azul" or opção_de_escolha = "1"
+    # 
+    # opção_de_escolha = input ("O que você deseja fazer? Digite (1) para consultar, Digite (2) para comprar, Digite (3) para sair! ")
+# if  opção_de_escolha == 1 (input("Qual a cor pra consultar? :" )):
+#     if opção_de_escolha =="Azul" :
+#         print("O preço do Disco Azul é: R$", discoazul1)
+#     elif opção_de_escolha == "Laranja":
+#         print("O preço do Disco Laranja é: R$", discolaranja2)
+#     elif opção_de_escolha == "Roxo":
+#         print("O preço do Disco Roxo é: R$", discoroxo3)
+#     elif opção_de_escolha == "Marrom":
+#         print("O preço do Disco Marrom é: R$", discomarrom4)
+#     elif opção_de_escolha == "3":
+#         print("SAINDOOOOO")
+#     else :
+#         print("Digite uma das cores disponiveis (Azul, Laranja, Marrom, Roxo)")
+#     opção_de_escolha = input ("O que você deseja fazer? Digite 1 para consultar, Digite 2 para comprar, Digite 3 para sair!")
+
+# else :
+
+
+# somazul = 0
+# i = 0 
+
+
+# teste = int (input ("Digite asfnajsfn"))
+# if  teste == 1 :
+#     i = i+1
+#     somazul = somazul + i
+#     print (somazul)
+# else :
+#     print ("Nada")
 
 
 
